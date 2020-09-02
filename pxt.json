@@ -1,0 +1,40 @@
+{
+    "name": "Mr. Weird",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.2.10",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "mouse": "*",
+        "light": "*",
+        "corgio": "*",
+        "controller": "*",
+        "sevenseg": "*",
+        "palette": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "keyboard": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.15.18",
+        "tag": "v0.15.18",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/636055cd61c37ce9d6e5b103b3a1d34cddf11a69",
+        "target": "1.0.16",
+        "pxt": "5.30.44",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
